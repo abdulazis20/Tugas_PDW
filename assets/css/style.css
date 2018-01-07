@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0; margin:0;
+	}
+
+h2{
+	font-family:'Righteous', cursive;
+	text-align:center;
+	}
+	
+h3{
+	font-family:'Righteous', cursive;
+	float:left;
+	margin-top:25px;
+	margin-left:500px;
+	}
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #666;
+	margin-right: 1px;
+	}
+	
+small {
+	color:#b69877;
+	}
+#main-nav .logo {
+    width: 94px;
+    display: inline-block; }
+	
+small a,
+p a{
+	color:#FFF;
+	text-decoration: none;
+	}
+
+/*Header*/
+header{
+	background:#f595b2;
+	padding: 5px 20px;
+	margin-bottom: 0;
+	position: relative;
+	z-index:10;
+	}
+	
+header a{
+	color:#FFF;
+	text-decoration: none;
+	}
+	
+header img{
+	float:left;
+	}
+	
+header h1{
+	margin-top:5px;
+	margin-left:30px;
+	font-family:'Righteous', cursive;
+	}
+	
+/*Content*/
+.page{
+	background:#E1E1E1;
+	}
+	
+.one {
+	background-color:#FCF5A3;
+	}
+	
+.one .img1{
+	margin-bottom:500px;
+	}
+	
+.one .img11{
+	margin-left:20px;
+	margin-top:21px;
+	;
+	}
+
+.one .page-container{
+	position:absolute;
+	bottom: 5px;
+	margin-top:150px;
+	left:50%;
+	margin-bottom: 150px;
+	max-width:650px;
+	}
+
+.one .page-container h2{
+	font-size: 4em;
+	}
+	
+.one .page-container p{
+	padding:20px 0px;
+	line-height:2.0em;
+	font-size:16px;}
+	
+.two{
+	background-color:#FFF;
+	}
+.two .img1{
+	margin-bottom:500px;
+	}
+	
+.two .img11{
+	margin-left:20px;
+	margin-top:21px;
+	;
+	}
+.two .page-container{
+	position:inherit;
+
+	left:2%;
+	margin-bottom: 150px;
+	max-width:550px;
+	text-align:right;
+	}
+.two .page-container h2{
+	font-size: 4em;
+	}
+
+.two .page-container p{
+	padding:20px 0px;
+	line-height:2.0em;
+	font-size:16px;
+	}
+	
+	
+.three{
+	background-color:#FFF;
+	
+	}
+.three .img1{
+	margin-right:50px;
+	margin-top:130px;
+	width: 250px;
+	text-align:center;
+	}
+
+
+
+.three .page-container{
+	position:absolute;
+	margin-top:10px;
+	left:10%;
+	margin-bottom: 150px;
+	max-width:600px;
+	max-height: 600px;
+	
+	}
+.three .page-container h2{
+	font-size: 30px;
+	font-family: Times New Roman;
+	margin-bottom: 10px;
+	margin-top: 200px;
+	
+	}
+
+.three .page-container p{
+	padding:20px 0;
+	line-height:1.5em;
+	}
+
+	
+/**/
+
+
